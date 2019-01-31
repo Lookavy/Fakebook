@@ -1,0 +1,25 @@
+#header {
+background-color: grey;
+height: 100px;
+width: auto;
+}
+
+.blue {
+color: blue;
+}
+
+#wrapper {
+    width: auto;
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    width: 650px;
+    float:left; /* add this */
+    border: 1px solid pink;
+}
+#second {
+    width: 500px;
+    border: 2px dotted purple;
+    float: right; /* add this */
+}
